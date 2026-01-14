@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    color: #333;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+/* Cabecera */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: RoyalBlue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Formularios */
+form {
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 8px 16px;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: small;
+}

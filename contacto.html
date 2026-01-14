@@ -18,7 +18,55 @@
             </nav>
         </header>
         <main>
+            <section>
+                    <h2>Formulario de contacto</h2>
 
+                        <form action="">
+                            <h3>Campos de texto</h3>
+                                <p>
+                                    <label for="nombre">Nombre</label><br>
+                                    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" minlength="3" maxlength="20" required>
+                                </p>
+
+                                <p>
+                                    <label for="apellidos">Apellidos</label><br>
+                                    <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos" required>
+                                </p>
+
+                            <h3>Contacto</h3>
+                                <p>
+                                    <label for="email">Correo electrónico</label><br>
+                                    <input type="email" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+                                </p>
+
+                                <p>
+                                    <label for="telefono">Teléfono de contacto</label><br>
+                                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]">
+                                </p>
+                            <h3>Datos numéricos</h3>
+                                <p>
+                                    <label for="edad">Edad</label><br>
+                                    <input type="number" id="edad" name="edad" width="3" min="1" max="110">
+                                </p>
+
+                                <p>
+                                    <select name="seleccion" id="selecion">
+                                    <option value="1">Uno</option>
+                                    <option value="2">Dos</option>
+                                    </select>
+                                </p>
+
+                                <p>
+                                    <input type="radio">
+                                    <option value="1">Uno</option>
+                                    <option value="2">Dos</option>
+                                </p>
+                                <p>
+                                    <input type="submit" value="Enviar">
+                                    <input type="reset">
+                                </p>
+                        </form>
+            </section>
         </main>
         <footer>
 
